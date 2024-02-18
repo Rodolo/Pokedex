@@ -1,0 +1,288 @@
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.top-header {
+    height: 15vh
+}
+
+
+
+.bg-metalic-red {
+    background-color: #8b0000;
+}
+
+.bg-sand-yellow {
+    background-color: #C9BB8A;
+}
+
+
+.pokedex-height {
+    height: 70vh;
+}
+
+.pokedex-width {
+    width: 60vw;
+}
+
+.card-size {
+    width:22vw; 
+    height: 40vh;
+}
+
+
+.type-icon-size {
+    height: 3vh;
+    width: 2vw;
+}
+
+.pokedex-top {
+    height: 7vh;
+}
+
+.height-auto {
+    height: auto;
+}
+
+
+.height-100 {
+    height: 100%;
+}
+
+.height-50 {
+    height: 50%;
+}
+
+.height-20 {
+    height: 11%;
+}
+
+.height-80 {
+    height: 89%;
+}
+.width-100 {
+    width: 100%;
+}
+
+.height-wh-8 {
+    height: 8vh;
+}
+
+.height-wh-3 {
+    height: 3vh;
+}
+
+
+.gold-border {
+    border: 2px solid goldenrod;
+}
+
+.border-black {
+    border: 3px solid black;
+}
+
+.border-black-notop {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.left-border-black {
+    border-left: 3px solid black;
+    padding-left: none;
+}
+
+.no-padding {
+    padding-left: 0px;
+}
+
+
+.border-black-top {
+    border-top: 3px solid black;
+}
+
+.border-black-bottom {
+    border-bottom: 3px solid black;
+}
+
+.left-triangle {
+    background: linear-gradient(-22deg, #8b0000 , #8b0000 48.33%, #000000 48.33%, #000000 52.66%, #8b0000 52.66%);
+}
+.right-triangle {
+    background: linear-gradient(22deg, #8b0000 , #8b0000 48.33%, #000000 48.33%, #000000 52.66%, #C9BB8A 52.66%);
+}
+
+
+
+.blue-dot {
+    height:5vh;
+    width:3vw;
+    background-color: #30B4E6;
+    border: solid 3px white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bright {
+    height:2vh;
+    width:1vw;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green-dot {
+    height:2vh;
+    width:1vw;
+    background-color: green;
+    border: solid 3px black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.red-dot {
+    height:2vh;
+    width:1vw;
+    background-color: red;
+    border: solid 3px black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellow-dot {
+    height:2vh;
+    width:1vw;
+    background-color: yellow;
+    border: solid 3px black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.pokesearch {
+    width: 15rem;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+
+
+.overflow-auto {
+    overflow: auto;
+}
+
+
+.gray-metallic-btn {
+    background-color: #8E8E8E;
+}
+
+.type {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    transition: 200ms all;
+}
+
+.type:hover{
+    filter: saturate(200%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bug {
+    background: #92BC2C;
+    box-shadow: 0 0 20px #92BC2C;
+}
+
+.dark {
+    background: #595761;
+    box-shadow: 0 0 20px #595761;
+}
+
+.dragon {
+    background: #0C69C8;
+    box-shadow: 0 0 20px #0C69C8;
+}
+
+.electric {
+    background: #F2D94E;
+    box-shadow: 0 0 20px #F2D94E;
+}
+
+.fire {
+    background: #FBA54C;
+    box-shadow: 0 0 20px #FBA54C;
+}
+
+.fairy {
+    background: #EE90E6;
+    box-shadow: 0 0 20px #EE90E6;
+}
+
+.fighting {
+    background: #D3425F;
+    box-shadow: 0 0 20px #D3425F;
+}
+
+.flying {
+    background: #A1BBEC;
+    box-shadow: 0 0 20px #A1BBEC;
+}
+
+.ghost {
+    background: #5F6DBC;
+    box-shadow: 0 0 20px #5F6DBC;
+}
+
+.grass {
+    background: #5FBD58;
+    box-shadow: 0 0 20px #5FBD58;
+}
+
+.ground {
+    background: #DA7C4D;
+    box-shadow: 0 0 20px #DA7C4D;
+}
+
+.ice {
+    background: #75D0C1;
+    box-shadow: 0 0 20px #75D0C1;
+}
+
+.normal {
+    background: #A0A29F;
+    box-shadow: 0 0 20px #A0A29F;
+}
+
+.poison {
+    background: #B763CF;
+    box-shadow: 0 0 20px #B763CF;
+}
+
+.psychic {
+    background: #FA8581;
+    box-shadow: 0 0 20px #FA8581;
+}
+
+.rock {
+    background: #C9BB8A;
+    box-shadow: 0 0 20px #C9BB8A;
+}
+
+.steel {
+    background: #5695A3;
+    box-shadow: 0 0 20px #5695A3;
+}
+
+.water {
+    background: #539DDF;
+    box-shadow: 0 0 20px #539DDF;
+}
